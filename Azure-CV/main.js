@@ -7,7 +7,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
   getVisitCount();
 });
 
-const functionApi = "";
+const functionApi = 
+"https://count-test-cv-plus-one-gbd4hsaqekb7d0ex.centralus-01.azurewebsites.net/api/incrementbyone?code=u4ZITThWXIcbQRRfFgOaWc1o-awpmTEk1NqUPWG5zoMVAzFuoIgMwA==";
+
+
 
 const getVisitCount = () => {
   fetch(functionApi)
