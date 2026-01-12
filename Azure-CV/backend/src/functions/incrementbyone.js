@@ -1,8 +1,8 @@
 const { app } = require("@azure/functions");
 const { CosmosClient } = require("@azure/cosmos");
 
-const endpoint = "https://test-cv-count-storage.documents.azure.com:443/";
-const key = "PiYlaBc5vMvmJge8E2LgktNugF3imy7LXRaiNjW42dA9v97X0sWZvJrwiWDCK5NT1tU4pKPpAUlVACDbJz6BoQ==";
+const endpoint = process.env.COSMOS_ENDPOINT;
+const key = process.env.COSMOS_KEY;
 
 if (!endpoint || !key) {
   throw new Error("Missing COSMOS_ENDPOINT or COSMOS_KEY (set in App Settings / local.settings.json).");
