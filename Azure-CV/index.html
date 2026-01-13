@@ -411,20 +411,22 @@
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
   
-  <script>
-  async function updateCounter() {
-    try {
-      const response = await fetch("http://localhost:7071/api/incrementbyone");
-      const data = await response.json();
 
-      document.getElementById("counter").innerText = data.count;
+  updateCounter();
+</script>
+<script>
+  async function loadCounter() {
+    try {
+      const response = await fetch("http://localhost:7072/api/incrementbyone");
+      const data = await response.json();
+      document.getElementById("counter").textContent = data.count;
     } catch (err) {
-      console.error("Counter error:", err);
-      document.getElementById("counter").innerText = "Error";
+      console.error("Failed to load counter:", err);
+      document.getElementById("counter").textContent = "Error";
     }
   }
 
-  updateCounter();
+  loadCounter();
 </script>
 </body>
 </html>
