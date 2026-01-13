@@ -1,454 +1,306 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
+  <meta charset="utf-8" />
+  <title>Hoi's Resume</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Hoi's Resume</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/default.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/media-queries.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Scripts -->
+  <script src="js/modernizr.js"></script>
+  <!-- If you have a main.js, keep it but use defer -->
+  <script src="main.js" defer></script>
 
-   <!-- Script
-   ================================================== -->
-   <script src="js/modernizr.js"></script>
-   <script src="main.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+  <link rel="shortcut icon" href="favicon.png" />
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+  <!-- Header / Home -->
+  <header id="home">
+    <nav id="nav-wrap">
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-      <nav id="nav-wrap">
+      <ul id="nav" class="nav">
+        <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+        <li><a class="smoothscroll" href="#about">About</a></li>
+        <li><a class="smoothscroll" href="#resume">Resume</a></li>
+        <li><a class="smoothscroll" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Hi, My name is Hoi</h1>
-            
-            <p>This page has been viewed <a id="counter"></a> times :) </p> 
-           
-         </div>
+    <div class="row banner">
+      <div class="banner-text">
+        <h1 class="responsive-headline">Hi, My name is Hoi</h1>
+        <p>This page has been viewed <span id="counter">--</span> times :)</p>
       </div>
+    </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/lucky.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>ABOUT ME</h2>
-<p>
-  Top Secret / SCI-cleared cybersecurity professional with 8+ years of experience supporting DoD and enterprise environments,
-  specializing in risk management, compliance, and cloud security engineering. I build secure, scalable solutions across Azure
-  and AWS—combining hands-on engineering with governance, automation, and security-by-design principles.
-</p>
-
-<p>
-  I’m expanding that foundation into cloud security engineering through hands-on projects like my Cloud Resume Challenge and
-  enterprise landing zone labs—implementing identity baselines, network segmentation, logging, automation, and zero-trust
-  principles.
-</p>
-
-         </br>
-      </br>
-       
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Certifications</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Microsoft Administrator Associate (Az-104)</h3>
-                  <p class="info"><em class="date">December 2025</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>AWS Cloud Practitioner</h3>
-                  <p class="info"><em class="date">October 2025</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>CompTia Advanced Security Practitioner</h3>
-                  <p class="info"><em class="date">October 2024</em></p>
-
-                  
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-                  <h3>CompTia Security+CE</h3>
-                  <p class="info"><em class="date">October 2024</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Cloud Engineer/Information Systems Security Engineer</h3>
-                  <p class="info">Leidos <span>&bull;</span> <em class="date">Feb 2022 - Present</em></p>
-
-                  <p>
-                  <li>Built a full serverless visitor counter using Azure Functions, Cosmos DB, and GitHub Actions CI/CD.</li> 
-                  <li>Implemented secure web hosting patterns using Azure Static Web Apps, AWS S3, CloudFront, and WAF.</li>
-                  <li>Conducting security assessments and penetration testing.</li>
-                  <li>Designed enterprise landing zone architectures with management groups, RBAC models, network segmentation, and cost governance.</li>
-                  <li>Implementing security controls and best practices in cloud environments.</li>
-                  <li>Secure cloud architecture (Hub-Spoke VNets, Zero Trust)</li>
-                  <li>Secure multi-tier application design (Frontend → API → Data)</li>
-                  <li>Network security (Azure Firewall, NSGs, Private Endpoints, Bastion)</li>
-                  <li>Logging, monitoring & incident response (Azure Monitor, Log Analytics)</li>
-                  <li>Identity & access management (Azure AD/Entra ID, RBAC, Managed Identities)</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Cyber Analyst</h3>
-                  <p class="info">ISHPI Inc <span>&bull;</span> <em class="date">May 2018 - August 2022</em></p>
-
-                  <p>
-                     <li>Data protection & compliance (encryption, NIST RMF, CIS Benchmarks).</li>
-                     <li>RMF & NIST compliance.</li>
-                     <li>Managed POA&Ms, validated control evidence, and updated eMass packages to support of RMF, ATO renewal.</li>
-                     <li>Conducted vulnerability assessments and penetration testing to identify and mitigate security risks.</li>
-                     <li>Developed and implemented security policies, procedures, and best practices to ensure compliance with industry standards and regulations.</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>ACAC Administrator</h3>
-                  <p class="info">NetCentrics <span>&bull;</span> <em class="date">September 2017 - May 2019</em></p>
-
-                  <p>
-                  <li>Maintain ACAS SecurityCenter (updates/plugins).</li>
-                  <li>Administered Tenable SecurityCenter and multiple Nessus scanners, applying
-                      plugin updates, system patches, and policy configurations.</li>
-                  <li>Updated ACAS TTPs and SOPs, improving consistency of vulnerability scanning
-                       and reporting processes.</li>
-                  <li>Administered ACAS TTPs and SOPs, improving consistency of vulnerability scanning
-                       and reporting processes.</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-<div class="row item">
-  <div class="twelve columns">
-
-    <h3>Skills</h3>
-    <p>
-      <li>RMF, NIST 800 series, DISA STIGs, eMASS, ACAS</li>
-      <li>Cloud: Azure Functions, Cosmos DB, AWS (Lambda concepts)</li>
-      <li>DevOps: Git, GitHub, GitHub Actions, Azure DevOps</li>
-      <li>Infrastructure as Code: Terraform, ARM templates</li>
-      <li>Tools: VS Code, Tenable SecurityCenter, Nessus</li>
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
     </p>
+  </header>
 
-  </div>
-</div>
+  <!-- About -->
+  <section id="about">
+    <div class="row">
+      <div class="three columns">
+        <img class="profile-pic" src="images/lucky.jpg" alt="Profile picture" />
+      </div>
 
-               
-            
-         </div> <!-- main-col end -->
+      <div class="nine columns main-col">
+        <h2>ABOUT ME</h2>
 
-      </div> <!-- End Work -->
+        <p>
+          Top Secret / SCI-cleared cybersecurity professional with 8+ years of experience supporting DoD and enterprise environments,
+          specializing in risk management, compliance, and cloud security engineering. I build secure, scalable solutions across Azure
+          and AWS—combining hands-on engineering with governance, automation, and security-by-design principles.
+        </p>
 
-     
-     </section>
-    <!-- Resume Section End-->
+        <p>
+          I’m expanding that foundation into cloud security engineering through hands-on projects like my Cloud Resume Challenge and
+          enterprise landing zone labs—implementing identity baselines, network segmentation, logging, automation, and zero-trust
+          principles.
+        </p>
+      </div>
+    </div>
+  </section>
 
-     <!-- Contact ME
-      ----------------------------------------------- -->
-      <section id="contact">
-        <div class="row">
-          <h1>Contact Me</h1>
-          <p class="info" style="color: #ffffff; padding: 10px; border-radius: 5px; font-weight: bold;">
-            Feel free to reach out for collaborations, opportunities, or just a chat!
-          </p>
-          
-          <div class="row item nine columns main-col" style="margin-left: auto; margin-right: auto;">
-            <form
-              id="contact-form"
-              method="POST"
-              action="https://formspree.io/f/xykkygqd"
-              aria-labelledby="contact-heading"
-            >
-             <!-- Replace "action" = with YOUR_FORMSPREE_ENDPOINT with your own Formspree endpoint -->
-              <fieldset>
-               
-                <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    aria-required="true"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    aria-required="true"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="phone">Phone:</label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    aria-label="Phone number"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="message">Message:</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    required
-                    aria-required="true"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn1">Send</button>
-              </fieldset>
-            </form>
-            <div id="form-status" style="margin-top: 10px;"></div>
+  <!-- Resume -->
+  <section id="resume">
+
+    <!-- Certifications -->
+    <div class="row education">
+      <div class="three columns header-col">
+        <h1><span>Certifications</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>Microsoft Administrator Associate (AZ-104)</h3>
+            <p class="info"><em class="date">December 2025</em></p>
           </div>
         </div>
-        <script>
-          document
-            .getElementById("contact-form")
-            .addEventListener("submit", async function (event) {
-              event.preventDefault();
-      
-              const form = event.target;
-              const formData = new FormData(form);
-              const formStatus = document.getElementById("form-status");
-      
-              try {
-                const response = await fetch(form.action, {
-                  method: form.method,
-                  body: formData,
-                  headers: {
-                    Accept: "application/json",
-                  },
-                });
-      
-                if (response.ok) {
-                  formStatus.innerHTML = "Message sent successfully!";
-                  form.reset();
-                } else {
-                  const errorData = await response.json();
-                  formStatus.innerHTML = `Failed to send message: ${errorData.error}`;
-                }
-              } catch (error) {
-                formStatus.innerHTML = `Failed to send message: ${error.message}`;
-              }
-            });
-        </script>
-      </section>
-      
-      
-          <!-- End Contact Me -->
 
-    <!-- footer
-   ================================================== -->
-   <footer>
-   
-          <ul>
-            <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
-            <a href=#home>
-              Updated by [Hoi]
-            </a>
-          </ul>
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>AWS Cloud Practitioner</h3>
+            <p class="info"><em class="date">October 2025</em></p>
+          </div>
         </div>
 
-        <div id="go-top">
-          <a class="smoothscroll" title="Back to Top" href="#home"
-            ><i class="icon-up-open"></i
-          ></a>
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>CompTIA Advanced Security Practitioner (CASP+)</h3>
+            <p class="info"><em class="date">October 2024</em></p>
+          </div>
+        </div>
+
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>CompTIA Security+ CE</h3>
+            <p class="info"><em class="date">October 2024</em></p>
+          </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer End-->
-    <!-- Footer End-->
+    </div>
 
-    <!-- Java Script
-   ================================================== -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
-    </script>
-    <script
-      type="text/javascript"
-      src="js/jquery-migrate-1.2.1.min.js"
-    ></script>
+    <!-- Work -->
+    <div class="row work">
+      <div class="three columns header-col">
+        <h1><span>Work</span></h1>
+      </div>
 
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
-  
+      <div class="nine columns main-col">
 
-  updateCounter();
-</script>
-<script>
-  async function loadCounter() {
-    try {
-      const response = await fetch("http://localhost:7071/api/incrementbyone");
-      const data = await response.json();
-      document.getElementById("counter").textContent = data.count;
-    } catch (err) {
-      console.error("Failed to load counter:", err);
-      document.getElementById("counter").textContent = "Error";
-    }
-  }
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>Cloud Engineer / Information Systems Security Engineer</h3>
+            <p class="info">Leidos <span>&bull;</span> <em class="date">Feb 2022 - Present</em></p>
+            <ul>
+              <li>Built a full serverless visitor counter using Azure Functions, Cosmos DB, and GitHub Actions CI/CD.</li>
+              <li>Implemented secure web hosting patterns using Azure Static Web Apps, AWS S3, CloudFront, and WAF.</li>
+              <li>Designed enterprise landing zone architectures with management groups, RBAC models, network segmentation, and cost governance.</li>
+              <li>Logging, monitoring & incident response (Azure Monitor, Log Analytics).</li>
+              <li>Identity & access management (Azure AD/Entra ID, RBAC, Managed Identities).</li>
+            </ul>
+          </div>
+        </div>
 
-  loadCounter();
-</script>
-<script>
-  async function updateCounter() {
-    try {
-      const response = await fetch(
-        "https://YOUR-FUNCTION-APP-NAME.azurewebsites.netcount-test-cv-plus-one-gbd4hsaqekb7d0ex.centralus-01.azurewebsites.net/api/incrementbyone"
-      );
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>Cyber Analyst</h3>
+            <p class="info">ISHPI Inc <span>&bull;</span> <em class="date">May 2018 - Aug 2022</em></p>
+            <ul>
+              <li>Managed POA&amp;Ms, validated control evidence, and updated eMASS packages supporting RMF/ATO renewals.</li>
+              <li>Conducted vulnerability assessments and supported remediation planning.</li>
+              <li>Implemented compliance controls using NIST RMF and CIS Benchmarks.</li>
+            </ul>
+          </div>
+        </div>
 
-      if (!response.ok) {
-        throw new Error("API call failed");
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>ACAS Administrator</h3>
+            <p class="info">NetCentrics <span>&bull;</span> <em class="date">Sep 2017 - May 2019</em></p>
+            <ul>
+              <li>Maintained ACAS SecurityCenter and Nessus scanners (plugins, patches, policies).</li>
+              <li>Updated ACAS TTPs/SOPs improving scan and reporting consistency.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row item">
+          <div class="twelve columns">
+            <h3>Skills</h3>
+            <ul>
+              <li>RMF, NIST 800 series, DISA STIGs, eMASS, ACAS</li>
+              <li>Cloud: Azure Functions, Cosmos DB, AWS (Lambda concepts)</li>
+              <li>DevOps: Git, GitHub Actions, Azure DevOps</li>
+              <li>IaC: Terraform, ARM templates</li>
+              <li>Tools: VS Code, Tenable SecurityCenter, Nessus</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="row">
+      <h1 id="contact-heading">Contact Me</h1>
+
+      <p class="info" style="color:#ffffff; padding:10px; border-radius:5px; font-weight:bold;">
+        Feel free to reach out for collaborations, opportunities, or just a chat!
+      </p>
+
+      <div class="row item nine columns main-col" style="margin-left:auto; margin-right:auto;">
+        <form id="contact-form" method="POST" action="https://formspree.io/f/xykkygqd">
+          <fieldset>
+
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn1">Send</button>
+          </fieldset>
+        </form>
+
+        <div id="form-status" style="margin-top:10px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <a href="https://www.styleshout.com/free-templates/ceevee/">Template by CeeVee</a>
+      <a href="#home">Updated by Hoi</a>
+    </ul>
+
+    <div id="go-top">
+      <a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+    </div>
+  </footer>
+
+  <!-- JS libs (use HTTPS) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+  </script>
+
+  <script src="js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/magnific-popup.js"></script>
+  <script src="js/init.js"></script>
+
+  <!-- Contact form status -->
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const form = event.target;
+      const formData = new FormData(form);
+      const formStatus = document.getElementById("form-status");
+
+      try {
+        const response = await fetch(form.action, {
+          method: form.method,
+          body: formData,
+          headers: { Accept: "application/json" },
+        });
+
+        if (response.ok) {
+          formStatus.innerHTML = "Message sent successfully!";
+          form.reset();
+        } else {
+          const errorData = await response.json();
+          formStatus.innerHTML = `Failed to send message: ${errorData.error || "Unknown error"}`;
+        }
+      } catch (error) {
+        formStatus.innerHTML = `Failed to send message: ${error.message}`;
       }
+    });
+  </script>
 
-      const data = await response.json();
-      document.getElementById("counter").innerText = data.count;
-    } catch (err) {
-      console.error("Counter error:", err);
-      document.getElementById("counter").innerText = "Error";
+  <!-- Visitor counter (fixed) -->
+  <script>
+    async function updateCounter() {
+      try {
+        const response = await fetch(
+          "https://YOUR-FUNCTION-APP-NAME.azurewebsites.net/api/incrementbyone"
+          // If using Azure Static Web Apps integrated Functions, use:
+          // "/api/incrementbyone"
+        );
+
+        if (!response.ok) throw new Error("API call failed");
+
+        const data = await response.json();
+        document.getElementById("counter").innerText = data.count ?? "0";
+      } catch (err) {
+        console.error("Counter error:", err);
+        document.getElementById("counter").innerText = "Error";
+      }
     }
-  }
 
-  updateCounter();
-</script>
+    document.addEventListener("DOMContentLoaded", updateCounter);
+  </script>
 
 </body>
 </html>
