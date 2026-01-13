@@ -1,20 +1,17 @@
 const { app } = require("@azure/functions");
 const { CosmosClient } = require("@azure/cosmos");
 
-// Load .env FIRST (before reading process.env)
-require("dotenv").config();
-console.log("ENV CHECK:", {
-  COSMOS_ENDPOINT: process.env.COSMOS_ENDPOINT,
-  COSMOS_KEY_SET: !!process.env.COSMOS_KEY,
-});
-
+// Load .env only for local runs
+if (process.env.AZURE_FUNCTIONS_ENVIRONMENT !== "Production") {
+  require("dotenv").config();
+}
 
 const COSMOS_ENDPOINT = process.env.COSMOS_ENDPOINT;
 const COSMOS_KEY = process.env.COSMOS_KEY;
 
 if (!COSMOS_ENDPOINT || !COSMOS_KEY) {
   throw new Error(
-    "Missing COSMOS_ENDPOINT or COSMOS_KEY. Set them in .env (local) or Function App Configuration (Azure)."
+    "Missing COSMOS_ENDPOINT or COSMOS_KEY. Set them in local.settings.json/.env (local) or Function App Configuration (Azure)."
   );
 }
 

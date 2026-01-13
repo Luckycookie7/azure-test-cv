@@ -417,7 +417,7 @@
 <script>
   async function loadCounter() {
     try {
-      const response = await fetch("http://localhost:7072/api/incrementbyone");
+      const response = await fetch("http://localhost:7071/api/incrementbyone");
       const data = await response.json();
       document.getElementById("counter").textContent = data.count;
     } catch (err) {

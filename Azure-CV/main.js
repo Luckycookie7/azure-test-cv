@@ -7,9 +7,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   getVisitCount();
 });
 
-const functionApi = 
-
-
 
 
 const getVisitCount = () => {
