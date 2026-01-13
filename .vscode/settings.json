@@ -1,0 +1,6 @@
+{
+    "azureFunctions.deploySubpath": "Azure-CV",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
+}
