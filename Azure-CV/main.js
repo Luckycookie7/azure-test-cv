@@ -1,4 +1,6 @@
-const functionApi = "https://count-test-cv-plus-one-gbd4hsaqekb7d0ex.centralus-01.azurewebsites.net/api/incrementbyone";
+const functionApi =
+  "https://count-test-cv-plus-one-gbd4hsaqekb7d0ex.centralus-01.azurewebsites.net/api/incrementbyone";
+
 
 const getVisitCount = () => {
   fetch(functionApi)
