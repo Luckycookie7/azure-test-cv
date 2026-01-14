@@ -37,6 +37,7 @@
         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
         <li><a class="smoothscroll" href="#about">About</a></li>
         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+        <li><a class="smoothscroll" href="#projects">Projects</a></li>
         <li><a class="smoothscroll" href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -47,16 +48,7 @@
         <p>This page has been viewed <span id="counter">Loading...</span> times :)</p>
         <p>Designed and deployed a production-grade serverless web application that showcases real-world cloud engineering, automation, and security practices. 
           This project implements the Cloud Resume Challenge using Microsoft Azure, featuring a live visitor counter backed by a scalable, secure backend.
-          The skills and technologies demonstrated include:
-
-          <ul>
-            <li>Azure Functions for serverless compute</li>
-            <li>Cosmos DB for globally distributed, low-latency data storage</li>
-            <li>Frontend: Azure Static Web Apps, HTML, CSS, JavaScript</li>
-            <li>Backend: Azure Functions (Node.js) and Azure Cosmos DB, HTTP-trigger API for visit counting</li>
-            <li>CI/CD pipelines with GitHub Actions for automated deployments</li>
-            <li>Security best practices including managed identities, RBAC, and secure API exposure</li>
-        </p>
+        
       </div>
     </div>
 
@@ -90,6 +82,83 @@
       </div>
     </div>
   </section>
+<!-- Projects -->
+<section id="projects">
+  <div class="row">
+    <div class="three columns header-col">
+      <h1><span>Projects</span></h1>
+    </div>
+
+    <div class="nine columns main-col">
+
+      <!-- Cloud Resume Challenge -->
+      <div class="row item">
+        <div class="twelve columns">
+          <h3>🌐 Cloud Resume Challenge — Secure Serverless Web App</h3>
+          <p class="info">
+            Technologies: Azure Functions, Cosmos DB, Managed Identity, GitHub Actions, Azure Static Web Apps, AWS S3, CloudFront
+          </p>
+          <ul>
+            <li>Built a serverless visitor counter API with Cosmos DB backend and frontend integration.</li>
+            <li>Migrated from key-based auth to Managed Identity + RBAC, eliminating credential exposure.</li>
+            <li>Implemented automated CI/CD pipelines for both frontend and backend deployments.</li>
+            <li>Secured the application with custom domains, HTTPS, and CORS hardening.</li>
+            <li>Demonstrated multi-cloud architecture patterns across Azure and AWS.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Azure Enterprise Landing Zone Lab -->
+      <div class="row item">
+        <div class="twelve columns">
+          <h3>🏗️ Azure Enterprise Landing Zone Lab</h3>
+          <p class="info">
+            Technologies: Azure Networking, Azure Firewall, Bastion, Entra ID, RBAC, Budgets
+          </p>
+          <ul>
+            <li>Architected a hub-and-spoke network topology with centralized security services.</li>
+            <li>Implemented management groups, RBAC models, and least-privilege access for security and operations teams.</li>
+            <li>Deployed cost governance controls including budgets, alerts, and tagging standards.</li>
+            <li>Built identity-first security architecture using Entra ID and Conditional Access.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cloud Security Engineering Labs -->
+      <div class="row item">
+        <div class="twelve columns">
+          <h3>🔐 Cloud Security Engineering Labs</h3>
+          <p class="info">
+            Technologies: Azure Monitor, Log Analytics, Application Insights, NSGs, Private Endpoints
+          </p>
+          <ul>
+            <li>Designed logging and monitoring pipelines for security visibility and incident response.</li>
+            <li>Implemented zero-trust network segmentation using NSGs, route tables, and private endpoints.</li>
+            <li>Applied STIG and CIS benchmark concepts to cloud-native workloads.</li>
+            <li>Built incident response workflows aligned with NIST and DoD security operations models.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CI/CD & DevSecOps Automation -->
+      <div class="row item">
+        <div class="twelve columns">
+          <h3>⚙️ CI/CD &amp; DevSecOps Automation</h3>
+          <p class="info">
+            Technologies: GitHub Actions, Git, Azure Functions, Secret Scanning
+          </p>
+          <ul>
+            <li>Built end-to-end CI/CD pipelines with automated testing and deployments.</li>
+            <li>Implemented secret scanning, repo hygiene, and branch protections to align DevOps with security requirements.</li>
+            <li>Resolved complex Git issues including merge conflicts, secret exposure remediation, and deployment failures.</li>
+            <li>Automated release validation and deployment gates, reducing manual risk.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
   <!-- Resume -->
   <section id="resume">
