@@ -55,12 +55,7 @@ header .banner {
    padding-bottom: 30px;s
    text-align: center;
 }
-
-/* Visitor counter number color */
-#counter {
-  color: #11ABB0;      /* pick any color you want */
-  font-weight: bold;
-}
+;
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
