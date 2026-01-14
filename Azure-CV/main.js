@@ -27,4 +27,4 @@ const getVisitCount = () => {
 // 🔥 THIS IS REQUIRED
 getVisitCount();
 
-};
+;
