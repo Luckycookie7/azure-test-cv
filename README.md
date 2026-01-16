@@ -7,70 +7,36 @@ Designed and deployed a production-grade serverless web application that showcas
 🏗️ Architecture Overview
 
 Frontend
-
-Azure Static Web Apps
-
-HTML, CSS, JavaScript
+--Azure Static Web Apps
+--HTML, CSS, JavaScript
 
 Backend
-
-Azure Functions (Node.js)
-
-HTTP-triggered API for real-time counter updates
-
-Data Layer
-
-Azure Cosmos DB
-
-Persistent storage for visitor metrics
-
-Automation
-
+--Azure Functions (Node.js)
+--HTTP-triggered API for real-time counter updates
+--Data Layer
+--Azure Cosmos DB
+--Persistent storage for visitor metrics
+--Automation
 GitHub Actions for CI/CD
 
-⚙️ How It Works
-
-A user visits the portfolio website
-
-Frontend JavaScript calls a serverless API endpoint
-
-Azure Function increments the counter in Cosmos DB
-
-Updated count is returned and displayed instantly
-
-This design demonstrates event-driven architecture, API integration, and cloud-native development.
-
 🔐 Security & Reliability
-
-Security was built in from day one:
-
-Secrets stored securely in Azure App Settings (no hard-coded credentials)
-
-Environment-based configuration for local vs production
-
-Least-privilege access to cloud resources
-
-API exposure limited to required endpoints only
-
-Logging and error handling for operational visibility
+--Security was built in from day one:
+--Secrets stored securely in Azure App Settings (no hard-coded credentials)
+--Environment-based configuration for local vs production
+--Least-privilege access to cloud resources
+--API exposure limited to required endpoints only
+--Logging and error handling for operational visibility
 
 🚀 DevOps & Automation
-
-Automated deployments using GitHub Actions
-
-Continuous integration for both frontend and backend
-
-Repeatable, version-controlled infrastructure and app configuration
-
-Rapid troubleshooting of CORS, routing, and deployment packaging issues
+--Automated deployments using GitHub Actions
+--Continuous integration for both frontend and backend
+--Repeatable, version-controlled infrastructure and app configuration
+--Rapid troubleshooting of CORS, routing, and deployment packaging issues
 
 🧠 Skills Demonstrated
-
-Serverless architecture (Azure Functions)
-
-Cloud security fundamentals
-
-REST API integration
+--Serverless architecture (Azure Functions)
+--Cloud security fundamentals
+--REST API integration
 
 CI/CD pipelines
 
